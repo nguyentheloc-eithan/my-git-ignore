@@ -1,0 +1,208 @@
+# Dependencies
+node_modules/
+bower_components/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment and config
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+# Additional secrets and certs
+*.p12
+*.mobileprovision
+*.jks
+*.keystore
+
+# direnv
+.direnv/
+.envrc
+
+# Extra IDE/editor metadata
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.metadata/
+*.sublime-project
+*.sublime-workspace
+.history/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.mypy_cache/
+.tox/
+.venv/
+venv/
+env/
+.python-version
+.ruff_cache/
+.ipynb_checkpoints/
+pip-wheel-metadata/
+htmlcov/
+.coverage.*
+
+# Java / Android
+target/
+*.class
+.gradle/
+.mvn/
+mvnw
+mvnw.cmd
+local.properties
+.cxx/
+captures/
+*.apk
+*.aar
+
+# Go
+bin/
+*.test
+coverage.out
+
+# Rust
+target/
+
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.pdb
+*.ilk
+TestResult*/
+
+# Apple / Xcode / Swift
+DerivedData/
+*.xcuserdatad
+*.xcuserstate
+*.xcworkspace/xcuserdata
+.swiftpm/
+.build/
+*.ipa
+*.dSYM
+
+# iOS dependency managers
+Pods/
+Carthage/
+
+# Ruby
+.bundle/
+vendor/bundle/
+log/
+.yardoc/
+.byebug_history
+
+# Elixir / Erlang
+_build/
+deps/
+erl_crash.dump
+*.ez
+.elixir_ls/
+
+# Haskell
+dist-newstyle/
+.stack-work/
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.project.local
+
+# Terraform / IaC
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+
+# Serverless
+.serverless/
+.aws-sam/
+
+# JS/TS caches and tooling
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.nyc_output/
+.parcel-cache/
+.rpt2_cache/
+.npm/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+
+# Frontend frameworks
+.next/
+.nuxt/
+.svelte-kit/
+.angular/cache
+.vercel/
+.vite/
+.docusaurus/
+
+# E2E/QA outputs
+cypress/videos/
+cypress/screenshots/
+test-results/
+playwright-report/
+blob-report/
+
+# Package manager locks (more)
+pnpm-lock.yaml
+bun.lockb
+
+# Mobile tooling
+.firebase/
+firebase-debug.log
+.expo/
+.expo-shared/
+
+# Monorepo tooling
+.turbo/
+# OS files
+Thumbs.db
+desktop.ini
+
+# Test coverage
+coverage/
+*.cover
+.pytest_cache/
+.coverage
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# Package manager locks (optional)
+package-lock.json
+yarn.lock
+composer.lock
